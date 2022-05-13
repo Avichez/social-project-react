@@ -1,0 +1,82 @@
+.wrapper {
+    padding: 30px;
+}
+
+.pages_list {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.pages_list span{
+    display: inline-block;
+    color: #828282;
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    line-height: 1;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pages_list span:hover {
+    border: 1px solid #454545;
+    color: #202020;
+}
+
+span.activePage {
+    border: 1px solid #454545;
+    color: #202020;
+}
+
+.cards_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.user_card {
+    min-width: 300px;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cacaca;
+    display: flex;
+    column-gap: 15px;
+    transition: all .3s;
+}
+
+.user_card:hover {
+    transition: all 0.2s;
+    box-shadow: 0px 0px 10px #b2b2b2;
+}
+
+.user_photo_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userPhoto {
+    border-radius: 50%;
+}
+
+.userPhoto:hover {
+    position: relative;
+    bottom: 3px;
+}
+
+.user_photo button {
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #b2b2b2;
+}
+
+.user_descr {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_descr h3 {
+    line-height: 1.5;
+}

@@ -1,0 +1,82 @@
+.dialogs_wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.dialogs_list {
+    flex: 0 0 25%;
+    background-color: rgba(66, 140, 243, 0.592);
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 7px 0px 7px #232323;
+    z-index: 5;
+}
+
+.dialogs_list ul {
+    padding: 0;
+}
+
+.dialogs_list ul .dialogs_list_item {
+    list-style: none;
+}
+
+.dialogs_list_item a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 15px 40px 0px 40px;
+}
+
+.dialogs_list_item a:hover {
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #2d2d2dfd;
+    transition: all 0.2s;
+}
+
+.dialogs_list_item a.active_dialog {
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #2d2d2dfd;
+}
+
+.messages_block {
+    flex: 1 1 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./../../assets/images/stardust.png);
+    background-repeat: repeat;
+}
+
+.create_message {
+    display: flex;
+}
+
+.create_message input {
+    font-size: 14px;
+    padding-left: 20px;
+    flex: 1 1 auto;
+    margin: 0 5px;
+    color: white;
+    background-color: #242526;
+    border-radius: 2rem;
+    border: none;
+    resize: none;
+}
+
+.create_message input::placeholder {
+    color: #b9b9b9;
+}
+
+
+.create_message button {
+    cursor: pointer ;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: none;
+    box-shadow: none;
+}
+

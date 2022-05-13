@@ -1,0 +1,21 @@
+.profile_header {
+    border-radius: 5px;
+    height: 250px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto
+  }
+  
+  .profile_infoblock {
+    margin-top: 20px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  
+  .profile_photo img {
+    max-width: 120px;
+    border-radius: 50%;
+  }

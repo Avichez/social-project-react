@@ -1,0 +1,15 @@
+.header {
+    grid-area: header;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242526;
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.profile_body {
+    color: white;
+    font-weight: 600;
+}

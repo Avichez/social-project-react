@@ -1,0 +1,36 @@
+.post_create_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.post_create_wrapper h3 {
+  font-size: 22px;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 15px;
+}
+
+.post_create_wrapper textarea {
+  resize: none;
+  height: 60px;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #242526;
+  border-radius: 1rem;
+  border: none;
+  
+}
+
+.post_create_wrapper button {
+  cursor: pointer;
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+.posts_block {
+  padding: 15px 15px;
+}

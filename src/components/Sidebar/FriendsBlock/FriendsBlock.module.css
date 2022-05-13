@@ -1,0 +1,19 @@
+.friends_block {
+    margin: 50px 10px 10px 10px;
+}
+
+.friends_block h3 {
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    padding-left: 15px;
+}
+
+.friends_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+

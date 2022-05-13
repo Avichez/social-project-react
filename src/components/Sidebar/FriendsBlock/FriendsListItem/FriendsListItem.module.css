@@ -1,0 +1,23 @@
+.friends_list_item {
+    width: 70px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.friends_list_item img {
+    border-radius: 50%;
+}
+
+
+.friends_list_item:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px inset rgb(31, 31, 31);
+    border-radius: 10px;
+    background-color: #2425268e;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
